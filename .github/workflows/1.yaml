@@ -8,4 +8,4 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'First'
+      - run: sleep 100 & echo 'First'
